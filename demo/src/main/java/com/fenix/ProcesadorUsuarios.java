@@ -3,19 +3,19 @@ package com.fenix;
 import java.util.List;
 
 /**
- * Esta clase procesa listas de usuarios. Contiene 'code smells' intencionados.
+ * Esta clase procesa listas de usuarios. 
  */
 public class ProcesadorUsuarios {
+
+    
+    private static final int ROL_INVITADO = 2;
+    private static final int ROL_ADMIN = 1;
 
     /**
      * Procesa una lista de strings y genera un resumen de roles.
      * * @param usuarios Lista de strings en formato "nombre:rol".
      * @return Un String con los nombres de Admins e Invitados separados.
      */
-    private static final int ROL_INVITADO = 2;
-    private static final int ROL_ADMIN = 1;
-
-    // Método con 'code smells': largo, números mágicos, malos nombres.
     public String procesarLista(List<String> usuarios) {
         String admins = "";
         String invitados = "";
