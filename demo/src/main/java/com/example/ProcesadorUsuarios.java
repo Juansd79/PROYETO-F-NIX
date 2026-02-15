@@ -1,6 +1,8 @@
-package fenix.proyecto;
+package com.example;
 
 import java.util.List;
+// Comentario para probar GitHub Actions
+
 
 /**
  * Esta clase procesa listas de usuarios. Contiene 'code smells' intencionados.

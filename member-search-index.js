@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.example","c":"ProcesadorUsuarios","l":"ProcesadorUsuarios()","u":"%3Cinit%3E()"},{"p":"com.example","c":"ProcesadorUsuarios","l":"procesarLista(List<String>)","u":"procesarLista(java.util.List)"}];updateSearchResults();
